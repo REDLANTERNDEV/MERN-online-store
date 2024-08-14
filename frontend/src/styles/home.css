@@ -1,0 +1,38 @@
+.current {
+  padding-top: 3rem;
+}
+@media (max-width: 500px) {
+  .current {
+    font-size: x-large !important;
+  }
+}
+
+.footer {
+  text-align: center;
+  color: red;
+  font-size: 1.3rem;
+  display: block;
+  bottom: 0;
+}
+
+.footer-p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-name {
+  color: #0011ff;
+  background-clip: text;
+}
+
+.footer-name:hover {
+  color: transparent; /* Make the text color transparent */
+  text-decoration: underline;
+  background-image: linear-gradient(
+    90deg,
+    #ff7e5f,
+    #feb47b
+  ); /* Cool gradient */
+  background-clip: text; /* Apply the gradient to the text */
+  -webkit-background-clip: text; /* For Safari */
+}

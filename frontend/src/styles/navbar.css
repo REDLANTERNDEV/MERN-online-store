@@ -1,0 +1,17 @@
+.logo {
+  padding-top: 2rem;
+}
+
+.nav-links {
+  padding-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    padding-top: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .nav-links {
+    padding-top: 1.5rem;
+  }
+}
